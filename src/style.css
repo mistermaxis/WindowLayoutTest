@@ -1,3 +1,59 @@
 body {
-  text-align: right;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.desktop-background {
+  height: 100%;
+  background-color: azure;
+}
+
+.window {
+  background-color: darkkhaki;
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+}
+
+.title-bar {
+  background-color: darkmagenta;
+  color: white;
+  position: top;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-bar > span {
+  user-select: none;
+}
+
+.close-button {
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.close-button:hover {
+  background-color: lightcoral;
+}
+
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: green;
+  padding: 0.25rem 0;
+}
+
+.start-button {
+  background-color: rgba(184, 252, 252, 0.753);
+  border: none;
+  padding: 0.4rem 0.6rem;
+}
+
+.start-button:hover {
+  background-color: green;
+  color: white;
 }
